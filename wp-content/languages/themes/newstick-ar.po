@@ -1,0 +1,102 @@
+# Translation of Themes - NewsTick in Arabic
+# This file is distributed under the same license as the Themes - NewsTick package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-11-15 10:34:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ar\n"
+"Project-Id-Version: Themes - NewsTick\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "NewsTick is a fast, clean, Best Responsive News Magazine WordPress theme. NewsTick is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. With its modern and clean design, NewsTick offers a visually appealing layout that is easy to navigate, making it ideal for delivering content to your readers. This theme comes equipped with a range of customizable options, custom widgets, and color schemes, allowing you to tailor your website to your specific needs and branding. It also supports various post formats, making it easy to present a variety of content types, from articles and videos to images and galleries. NewsTick is optimized for speed and SEO, ensuring that your website loads quickly and ranks well in search engine results. Its responsive design ensures that your content looks great on all devices, whether it's a desktop computer, tablet, or smartphone. NewsTick demos https://preview.desertthemes.com/newsmunch/"
+msgstr "NewsTick عبارة عن سمة WordPress سريعة ونظيفة وأفضل استجابة لمجلة الأخبار. NewsTick مناسب للأخبار الديناميكية والصحف والمجلات والناشرين والمدونات والمحررين ومجلات الإنترنت والألعاب والبوابات الإخبارية والمدونات الشخصية والصحف ومواقع النشر أو المراجعة وأي موقع ويب إبداعي. بفضل تصميمه الحديث والنظيف، يقدم NewsTick تصميمًا جذابًا بصريًا يسهل التنقل فيه، مما يجعله مثاليًا لتوصيل المحتوى إلى القراء. يأتي هذا المظهر مزودًا بمجموعة من الخيارات القابلة للتخصيص والأدوات المخصصة وأنظمة الألوان، مما يسمح لك بتخصيص موقع الويب الخاص بك وفقًا لاحتياجاتك وعلامتك التجارية المحددة. كما أنه يدعم تنسيقات النشر المختلفة، مما يجعل من السهل تقديم مجموعة متنوعة من أنواع المحتوى، من المقالات ومقاطع الفيديو إلى الصور والمعارض. تم تحسين NewsTick من أجل السرعة وتحسين محركات البحث، مما يضمن تحميل موقع الويب الخاص بك بسرعة وتصنيفه جيدًا في نتائج محرك البحث. ويضمن تصميمه سريع الاستجابة أن يبدو المحتوى الخاص بك رائعًا على جميع الأجهزة، سواء كان جهاز كمبيوتر مكتبيًا أو جهازًا لوحيًا أو هاتفًا ذكيًا. العروض التوضيحية لـ NewsTick https://preview.desertthemes.com/newsmunch/"
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "NewsTick"
+msgstr "NewsTick"
+
+#: template-parts/site-header.php:18 template-parts/site-header.php:91
+msgid "data-bg-image"
+msgstr "data-bg-image"
+
+#: template-parts/site-header.php:17 template-parts/site-header.php:91
+msgid "is--sticky"
+msgstr "is--sticky"
+
+#: template-parts/site-breadcrumb.php:11
+msgid "dt-py-3"
+msgstr "dt-py-3"
+
+#: template-parts/site-breadcrumb.php:11
+msgid "style-2"
+msgstr "أسلوب-2"
+
+#: template-parts/section-slider.php:24
+msgid "4 dt-col-lg-4"
+msgstr "4 dt-col-lg-4"
+
+#: template-parts/section-slider.php:18
+msgid "6"
+msgstr "6"
+
+#: template-parts/section-slider.php:18
+msgid "9"
+msgstr "9"
+
+#: template-parts/section-slider.php:18
+msgid "12"
+msgstr "12"
+
+#: template-parts/section-slider.php:12 template-parts/section-slider.php:24
+msgid "3 dt-col-md-6"
+msgstr "3 dt-col-md-6"
+
+#: template-parts/section-slider.php:12
+msgid "8 dt-col-lg-8"
+msgstr "8 dt-col-lg-8"
+
+#: header.php:21
+msgid "Skip to content"
+msgstr "التجاوز إلى المحتوى"
+
+#: functions.php:36
+msgid "Hide/Show Slider Left?"
+msgstr "إخفاء/إظهار شريط التمرير إلى اليسار؟"
+
+#: functions.php:35
+msgid "Slider Content Left"
+msgstr "محتوى شريط التمرير الأيسر"
+
+#: functions.php:34
+msgid "Hide/Show Slider Middle?"
+msgstr "إخفاء/إظهار شريط التمرير الأوسط؟"
+
+#: functions.php:33
+msgid "Slider Content Middle"
+msgstr "محتوى المنزلق الأوسط"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://desertthemes.com/themes/newstick-free/"
+msgstr "https://desertthemes.com/themes/newstick-free/"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://desertthemes.com/"
+msgstr "https://desertthemes.com/"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "DesertThemes"
+msgstr "DesertThemes"

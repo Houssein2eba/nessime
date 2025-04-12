@@ -1,0 +1,343 @@
+/*
+Theme Name: 	   NewsTick
+Text Domain: 	   newstick
+Template: 			newsmunch
+Version:            1.0.52
+Tested up to:       6.7
+Requires at least:  4.7
+Requires PHP:       7.0
+Author:             DesertThemes
+Author URI:         https://desertthemes.com/
+Theme URI:          https://desertthemes.com/themes/newstick-free/
+Description:        NewsTick is a fast, clean, Best Responsive News Magazine WordPress theme. NewsTick is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. With its modern and clean design, NewsTick offers a visually appealing layout that is easy to navigate, making it ideal for delivering content to your readers. This theme comes equipped with a range of customizable options, custom widgets, and color schemes, allowing you to tailor your website to your specific needs and branding. It also supports various post formats, making it easy to present a variety of content types, from articles and videos to images and galleries. NewsTick is optimized for speed and SEO, ensuring that your website loads quickly and ranks well in search engine results. Its responsive design ensures that your content looks great on all devices, whether it's a desktop computer, tablet, or smartphone. NewsTick demos https://preview.desertthemes.com/newsmunch/
+Tags:               blog, e-commerce, entertainment, grid-layout, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, featured-images, featured-image-header, flexible-header, post-formats, rtl-language-support, translation-ready, theme-options, threaded-comments, footer-widgets
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --dt-main-rgb: 215, 41, 36;
+    --dt-black-color: #101010;
+    --dt-title-family: "Josefin Sans", sans-serif;
+    --dt-base-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    font-optical-sizing: auto;
+}
+
+.header--ten.dt_header .dt_navbar-nav .dt_home-icon a:hover, 
+.header--ten.dt_header .dt_navbar-nav .dt_home-icon a:focus {
+    background-color: var(--dt-secondary-color);
+}
+
+.header--ten .dt_switcherdarkbtn:focus {
+    color: rgb(0 0 0 / 51%);
+}
+
+.header--ten .dt_navbar-wrapper.is--sticky.on .dt_navbar-inner= {
+    display: none;
+}
+
+.header--ten .dt_navbar .dt_navbar-subscribe-item .dt-subscribe,
+.header--ten .dt_navbar .dt_navbar-login-item .dt-user-login,
+.header--ten .dt_navbar .dt_navbar-cart-item .dt_navbar-cart-icon,
+.header--ten .dt_navbar .dt_navbar-search-item button.dt_navbar-search-toggle {
+    background: transparent;
+    width: 2.4rem;
+    height: 2.4rem;
+    line-height: normal;
+    padding: 0;
+    box-shadow: none;
+}
+
+@media (min-width: 62em) {
+    .header--ten sup.menu-badge {
+        top: -11px;
+    }
+}
+
+.header--ten .dt_navbar-menu {
+    padding: 10px;
+    justify-content: space-between;
+}
+
+html body .header--ten+.exclusive-wrapper {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.header--ten .dt_navbar-wrapper .dt_navbar-inner .dt-row .dt-col-md:first-child .dt_navbar-right > ul {
+    padding-left: 0;
+    padding-right: 1.2rem;
+    justify-content: start;
+}
+
+.header--ten .dt_navbar-wrapper .dt_navbar-inner .site--logo {
+    text-align: center;
+}
+
+.header--ten .dt_navbar-menu {
+    background-color: #fff;
+    border-bottom: solid 3px rgba(78, 78, 78, 0.5);
+}
+
+body.dark .header--ten .dt_navbar-menu {
+    background-color: rgba(255,255,255,.1);
+}
+
+.header--ten .dt_navbar-wrapper.is--sticky.on .dt_navbar-menu {
+    border-bottom: none;
+}
+
+.header--ten .dt_navbar .dt_navbar-wrapper.is--sticky.on .dt_navbar-inner {
+    display: none;
+}
+
+.header--ten .dt_navbar .dt_navbar-subscribe-item .dt-subscribe,
+.header--ten .dt_navbar .dt_navbar-login-item .dt-user-login,
+.header--ten .dt_navbar .dt_navbar-cart-item .dt_navbar-cart-icon,
+.header--ten .dt_navbar .dt_navbar-search-item button.dt_navbar-search-toggle {
+    color: var(--dt-secondary-color);
+}
+
+.header--ten .dt_navbar .dt_navbar-subscribe-item .dt-subscribe:focus,
+.header--ten .dt_navbar .dt_navbar-subscribe-item .dt-subscribe:hover,
+.header--ten .dt_navbar .dt_navbar-login-item .dt-user-login:focus,
+.header--ten .dt_navbar .dt_navbar-login-item .dt-user-login:hover,
+.header--ten .dt_navbar .dt_navbar-cart-item .dt_navbar-cart-icon:focus,
+.header--ten .dt_navbar .dt_navbar-cart-item .dt_navbar-cart-icon:hover,
+.header--ten .dt_navbar .dt_navbar-search-item button.dt_navbar-search-toggle:focus,
+.header--ten .dt_navbar .dt_navbar-search-item button.dt_navbar-search-toggle:hover {
+    color: var(--dt-main-color);
+}
+
+.menu_active-three.header--ten .dt_navbar-menu,
+.menu_active-three:not(.header--one, .header--two, .header--five, .header--six, .header--seven, .header--eight, .header--nine, .header--ten) .dt_navbar-menus {
+    padding: 0;
+    border-bottom: 4px solid var(--dt-main-color);
+}
+
+.wc-block-cart-items th {
+    color: var(--dt-secondary-color);
+}
+
+.wc-block-components-product-badge {
+    background: var(--dt-main-color);
+    color: #fff;
+}
+
+.wc-block-checkout__actions_row .wc-block-components-checkout-place-order-button {
+    background-color: var(--dt-main-color);
+    color: #fff;
+}
+
+div.wc-block-components-order-summary .wc-block-components-order-summary-item__quantity {
+    background: var(--dt-main-color);
+    color: #fff;
+}
+
+.wp-block-embed figcaption {
+    text-align: center;
+}
+
+.has-background.wp-block-read-more {
+    padding: 0.25em 1.375em;
+}
+
+.wc-block-featured-category__link .wp-block-button__link:hover, 
+.wc-block-featured-category__link .wp-block-button__link:focus {
+    color: #fff;
+}
+
+nav.woocommerce-breadcrumb a {
+    text-decoration: none;
+}
+
+.has-text-color a:hover, 
+.has-text-color a:focus {
+    color: inherit;
+}
+
+.wc-block-featured-product__price .woocommerce-Price-amount.amount {
+    color: #fff;
+}
+
+.wp-block-pullquote.has-text-color blockquote {
+    border-left-color: inherit;
+}
+
+.wc-block-featured-product__link a:hover, 
+.wc-block-featured-product__link a:focus {
+    color: #fff;
+}
+
+.wp-block-table figcaption {
+    text-align: center;
+    font-weight: 600;
+}
+
+.wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link:hover, 
+.wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link:focus {
+    color: #fff;
+}
+
+.wp-block-code.has-text-color code {
+    color: inherit;
+}
+
+.wp-block-code.has-background code {
+    background: inherit;
+}
+
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name {
+    font-size: 1.5rem;
+}
+
+.wc-block-components-product-metadata .wc-block-components-product-metadata__description>p {
+    font-size: 1.2rem;
+}
+
+.wp-block-woocommerce-empty-mini-cart-contents-block .wc-block-mini-cart__empty-cart-wrapper p strong {
+    font-size: 16px;
+}
+
+table.wc-block-cart-items .wc-block-components-product-price {
+    font-size: 1.2rem;
+}
+
+.wp-block-post-author__avatar img {
+    border-radius: 100%;
+}
+
+.wc-block-mini-cart__empty-cart-wrapper .wc-block-mini-cart__shopping-button:hover, 
+.wc-block-mini-cart__empty-cart-wrapper .wc-block-mini-cart__shopping-button:focus {
+    color: #fff;
+}
+
+ul.wp-block-page-list a {
+    text-decoration: none;
+}
+
+.widget.widget_shopping_cart a:before {
+    display:none
+}
+
+.widget .wc-block-grid__products a:before {
+    display: none;
+}
+
+.has-background.wp-block-post-author {
+    padding: 1rem;
+}
+
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link {
+    font-size: 1rem !important;
+}
+
+.wp-block-details summary {
+    font-weight: 600;
+    padding: 10px;
+}
+
+.wc-block-components-totals-item__value {
+    font-size: 1.5rem;
+}
+
+.wc-block-mini-cart__footer-checkout,
+.wc-block-mini-cart__footer-checkout:hover,
+.wc-block-mini-cart__footer-checkout:focus {
+    background-color: var(--dt-main-color);
+    color: #fff;
+}
+
+.wp-block-verse {
+    padding: 10px;
+}
+
+.wc-block-mini-cart__footer .wc-block-mini-cart__footer-actions a {
+    text-decoration: none;
+}
+
+.aligncenter, img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    clear: both;
+}
+
+.wc-block-mini-cart__badge {
+    color: inherit;
+}
+
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name {
+    text-decoration: none;
+}
+
+.wc-block-mini-cart__footer .wc-block-mini-cart__footer-actions a {
+    font-size: 1.2rem;
+}
+
+.wc-block-mini-cart__footer span.wc-block-components-totals-item__label {
+    font-size: 1.5rem;
+}
+
+.wp-block-archives-list a {
+    text-decoration: none;
+}
+
+.wc-block-mini-cart__footer .wc-block-components-totals-item.wc-block-mini-cart__footer-subtotal .wc-block-components-totals-item__description {
+    font-size: 1.2rem !important;
+}
+
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link {
+    text-decoration: none !important;
+}
+
+.wp-block-latest-comments__comment a {
+    text-decoration: none;
+}
+
+.wc-block-components-product-badge {
+    font-size: 1rem !important;
+}
+
+.wc-block-components-totals-coupon-link {
+    text-decoration: none;
+}
+
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link:hover, 
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link:focus {
+    color: var(--dt-main-color) !important;
+}
+
+.wp-block-woocommerce-customer-account a .wc-block-customer-account__account-icon {
+    height: 2rem !important;
+    width: 2rem !important;
+}
+
+.dt_sidebar .wp-block-comment-author-name a,
+.dt_sidebar .wp-block-comment-date a {
+    text-decoration: none;
+    color: var(--dt-secondary-color);
+}
+
+.wp-block-avatar img {
+    border-radius: 50%;
+}
+
+.wp-block-avatar:hover img {
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07);
+}
